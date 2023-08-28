@@ -1,0 +1,118 @@
+[[tests]]
+name = "empty"
+input = ["./$project", "empty"]
+expected = """
+ _ | _ | _
+---+---+---
+ _ | _ | _
+---+---+---
+ _ | _ | _
+"""
+rubric = 10
+
+[[tests]]
+name = "print"
+input = ["./$project", "print"]
+expected = """
+ _ | _ | _
+---+---+---
+ _ | _ | _
+---+---+---
+ _ | _ | _
+"""
+rubric = 5
+
+[[tests]]
+name = "init"
+input = ["./$project", "init"]
+expected = """
+init success
+"""
+rubric = 5
+
+[[tests]]
+name = "board"
+input = ["./$project", "board"]
+expected = """
+ X | _ | O
+---+---+---
+ _ | X | _
+---+---+---
+ _ | _ | O
+"""
+rubric = 10
+
+[[tests]]
+name = "check"
+input = ["./$project", "check"]
+expected = """
+X wins
+"""
+rubric = 5
+
+
+[[tests]]
+name = "xhoriz"
+input = ["./$project", "xhoriz"]
+expected = """
+ X | X | X
+---+---+---
+ _ | O | _
+---+---+---
+ _ | _ | O
+X wins
+"""
+rubric = 10
+
+[[tests]]
+name = "overt"
+input = ["./$project", "overt"]
+expected = """
+ X | X | O
+---+---+---
+ _ | _ | O
+---+---+---
+ _ | _ | O
+O wins
+"""
+rubric = 10
+
+[[tests]]
+name = "diag1"
+input = ["./$project", "diag1"]
+expected = """
+ O | X | X
+---+---+---
+ _ | O | X
+---+---+---
+ X | _ | O
+O wins
+"""
+rubric = 15
+
+[[tests]]
+name = "diag2"
+input = ["./$project", "diag2"]
+expected = """
+ O | X | X
+---+---+---
+ _ | X | X
+---+---+---
+ X | _ | O
+X wins
+"""
+rubric = 15
+
+[[tests]]
+name = "draw"
+input = ["./$project", "draw"]
+expected = """
+ X | O | X
+---+---+---
+ O | X | O
+---+---+---
+ O | X | O
+draw
+"""
+rubric = 15
+
