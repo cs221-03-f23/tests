@@ -1,3 +1,6 @@
+[project]
+timeout = 10
+
 [[tests]]
 name = "o-in-foobar"
 input = ["./$project", "foobar", "o"]
