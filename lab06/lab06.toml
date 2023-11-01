@@ -7,7 +7,7 @@ EXPR OPER2 PLUS
 ..EXPR INTVAL 1
 ..EXPR INTVAL 2
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "tree2"
@@ -20,7 +20,7 @@ EXPR OPER2 MULT
 ....EXPR INTVAL 2
 ..EXPR INTVAL 3
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "tree3"
@@ -33,7 +33,7 @@ EXPR OPER2 MULT
 ....EXPR INTVAL 10
 ....EXPR INTVAL 5
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "tree4"
@@ -48,7 +48,7 @@ EXPR OPER2 MULT
 ......EXPR INTVAL 1
 ......EXPR INTVAL 1
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "tree5"
@@ -60,7 +60,7 @@ EXPR OPER2 PLUS
 ....EXPR INTVAL 4
 ..EXPR INTVAL 3
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "tree6"
@@ -73,7 +73,7 @@ EXPR OPER2 PLUS
 ..EXPR OPER1 MINUS
 ....EXPR INTVAL 4
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "hexlit1"
@@ -84,7 +84,7 @@ EXPR OPER2 PLUS
 ..EXPR INTVAL 1
 ..EXPR INTVAL 10
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "hexlit2"
@@ -95,7 +95,7 @@ EXPR OPER2 PLUS
 ..EXPR INTVAL 255
 ..EXPR INTVAL 10
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "binlit2"
@@ -106,7 +106,7 @@ EXPR OPER2 PLUS
 ..EXPR INTVAL 255
 ..EXPR INTVAL 1
 """
-case-sensitive = true
+case_sensitive = true
 
 [[tests]]
 name = "binhex"
@@ -117,4 +117,4 @@ EXPR OPER2 PLUS
 ..EXPR INTVAL 255
 ..EXPR INTVAL 255
 """
-case-sensitive = true
+case_sensitive = true
